@@ -175,7 +175,7 @@ names(relevant_data)<-gsub("\\.", "", names(relevant_data))
 # variable of that column for the group
 
 # Starting with dplyr 0.8.0, funs in summarise_all is "softly deprecated" and it is recommented to use list.
-if(packageVersion("dplyr") > "0.8.0"){
+if(packageVersion("dplyr") >= "0.8.0"){
   summarised_data <- relevant_data %>%
                       group_by(Subject, Activity) %>%
                       summarise_all(list(~mean))
