@@ -97,7 +97,7 @@ The following modifications are applied to the *relevant_data* dataframe:
    - "tBody" is replaced with "TimeBody" in the middle of column names
    - "." character added during import of strings from file are removed (i.e. replaced with "")
 
-## Step 5 ~ Tidying up column names
+## Step 5 ~ Grouping, applying Mean and Export the dataframe
 
 As last point of the assignment, step 5 requests to perform the following: 
 *From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject*
